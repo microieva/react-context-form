@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[data-theme='dark'].Theme-wrapper {
+  background: #1a1a1a;
+  color: #fff;
+}
+.Theme-wrapper {
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #444;
+  background: #f5f6f7;
+  height: 100vh;
+  padding-top: 20px;
+}
+.Theme-toggler {
+  display: block;
+  margin: auto;
+  background: grey;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.App {
+  max-width: 55rem;
+  margin: 4rem auto;
+}
+
+.App > h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+
+[data-theme='dark'] .Form {
+  background: #292828;
+  color: #fff;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.Form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+[data-theme='dark'] .Form input {
+  background: #363636;
+  color: #fff;
+}
+[data-theme='dark'] .Form input:active {
+  background: #363636;
+  color: #fff;
+}
+
+.Form input {
+  background: #f5f6f7;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border: 1px solid #0970b4;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+}
+
+.Form div {
+  width: 15rem;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Form button {
+  background: #099dff;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+.Form button:hover{
+  background: #88cdf3;
+}
+
+#del-btn{
+  width:5rem;
+}
+
+table {
+  width:100%;
+}
+thead tr{
+  text-align: left;
+}
+td {
+  width: 15rem;
+}
+.del-btn{
+  background: orange;
+  color: #fff;
+  padding: 1rem 0.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+}
+.del-btn:hover {
+  background: rgb(255, 206, 90);
+}
+h4{
+  text-align: center;
+  line-height: 10rem;
+}
+
