@@ -11,15 +11,15 @@ const UserProvider: React.FC<UserProviderProps> = ({ children }) => {
   const [users, setUsers] = React.useState<User[]>([
     {
       id: 1,
-      firstName: 'ieva',
-      lastName: 'vyl',
-      phone: '1234',
+      firstName: 'john',
+      lastName: 'doe',
+      phone: '123123',
     },
     {
       id: 2,
-      firstName: 'ugne',
-      lastName: 'vyl',
-      phone: '1111',
+      firstName: 'jane',
+      lastName: 'doe',
+      phone: '321321',
     },
   ]);
 

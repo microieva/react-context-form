@@ -32,7 +32,6 @@ const UserForm: React.FC = () => {
       <div>
         <label htmlFor='firstName'>First name:</label>
         <input 
-          //style={style.form.inputs}
           id='firstName' 
           type='text'
           value={formData.firstName}
@@ -42,7 +41,6 @@ const UserForm: React.FC = () => {
       <div>
         <label htmlFor='lastName'>Last name:</label>
         <input 
-          //style={style.form.inputs}
           id='lastName' 
           type='text'
           value={formData.lastName}
@@ -52,7 +50,6 @@ const UserForm: React.FC = () => {
       <div>
         <label htmlFor='phone'>Phone:</label>
         <input
-          //style={style.form.inputs}
           id='phone' 
           type='text'
           value={formData.phone}
@@ -60,7 +57,6 @@ const UserForm: React.FC = () => {
         />
       </div>   
       <button 
-        //style={style.form.submitBtn} 
         type='submit' 
       > Add User
       </button>    
